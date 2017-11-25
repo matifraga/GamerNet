@@ -1,0 +1,23 @@
+{
+  "name": "gamernet",
+  "version": "1.0.0",
+  "description": "gamernet ico",
+  "main": "truffle.js",
+  "dependencies": {
+    "zeppelin-solidity": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gamernettest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matifraga/GamerNet.git"
+  },
+  "author": "raptor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matifraga/GamerNet/issues"
+  },
+  "homepage": "https://github.com/matifraga/GamerNet#readme"
+}
