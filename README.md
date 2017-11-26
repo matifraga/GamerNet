@@ -27,7 +27,7 @@ $ testrpc -u 0
 
 That will use a development network to try this out.
 
-To deploy our contracts we need to build them first and then migrate them using trufle, so run
+To deploy our contracts we need to build them first and then migrate them using truffle, so run
 
 ```
 $ truffle compile
@@ -36,7 +36,7 @@ $ truffle migrate
 
 Nice! You've deployed your (first?) contract.
 
-Now you can open a truffle console and play arount like this
+Now you can open a truffle console and play around like this
 
 ```
 $ truffle console
