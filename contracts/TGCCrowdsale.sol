@@ -15,7 +15,7 @@ contract TGCCrowdsale is Crowdsale, Ownable, CappedCrowdsale, FinalizableCrowdsa
 
   function TGCCrowdsale (uint256 _startTime, uint256 _endTime, uint256 _rate, address _wallet)
     Crowdsale(_startTime, _endTime, _rate, _wallet) 
-    CappedCrowdsale(16666 ether) 
+    CappedCrowdsale(15000 ether) 
     FinalizableCrowdsale() public {
       TGCToken(token).pause();
   }
